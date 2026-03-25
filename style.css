@@ -5,23 +5,22 @@
     padding: 0;
     font-family: "Poppins", sans-serif;
 }
-body{
+
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   background-color: rgb(30, 30, 198);
-   color: white;
+    background-color: rgb(30, 30, 198);
+    color: white;
 }
-.container{
-    height: 50vmin;
-    width: 50vmin;
-}
-.container h1 span{
+
+.container h1 span {
     color: rgb(0, 255, 8);
 }
-.display{
+
+.display {
     margin: 20px 0;
     width: 100%;
     padding: 8px 20px;
@@ -31,17 +30,20 @@ body{
     align-items: center;
     border-radius: 8px;
 }
-.display input{
+
+.display input {
     padding: 10px 20px;
     border: none;
     outline: none;
     font-size: 20px;
 }
-.display img{
+
+.display img {
     cursor: pointer;
 }
-.container button{
-    padding:10px 20px ;
+
+.container button {
+    padding: 10px 20px;
     font-size: 20px;
     background-color: rgb(12, 188, 12);
     color: white;
@@ -49,4 +51,11 @@ body{
     outline: none;
     border: none;
     border-radius: 6px;
+}
+
+@media (max-width:700px) {
+    .display input {
+        width: 60%;
+        padding: 10px 0px;
+    }
 }
