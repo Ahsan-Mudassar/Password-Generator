@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@300..700&family=Inder&family=Poppins:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   background-color: rgb(30, 30, 198);
+   color: white;
+}
+.container{
+    height: 50vmin;
+    width: 50vmin;
+}
+.container h1 span{
+    color: rgb(0, 255, 8);
+}
+.display{
+    margin: 20px 0;
+    width: 100%;
+    padding: 8px 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+.display input{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+.display img{
+    cursor: pointer;
+}
+.container button{
+    padding:10px 20px ;
+    font-size: 20px;
+    background-color: rgb(12, 188, 12);
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+}
